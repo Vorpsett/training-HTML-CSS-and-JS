@@ -1,6 +1,6 @@
 /* class */
 .bodycontainer{
-    background-color: #9DFA8A;
+    background-color: white;
     background-image: url(./Imag/tablanegra.jpg);  
    background-repeat: no-repeat;
    background-size: cover;
@@ -47,23 +47,30 @@ img{
     left: 10%;
 }
 
-.frutatexto{
+.textocompra {
+    position: relative;
     font-size: 20px;
     color: white;
+    float: left;
+    width: auto;
+   
+}
+
+.frutatexto{
     position: relative;
-    left: 5%;
+    left: 70%;
+    bottom: 11px;
+   
 }
 
 .carnetexto{
-    font-size: 20px;
-    color: white;
     position: relative;
-    left: 25%;
-    top: 0;
+    left: 720px;
+    bottom: 165px; 
 }
 
 .verduratexto{
-    font-size: 20px;
-    color: white;
-    position: absolute;
+   position: relative;
+   left: 1240px;
+   bottom: 350px;
 }
