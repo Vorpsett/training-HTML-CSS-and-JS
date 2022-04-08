@@ -1,0 +1,69 @@
+/* class */
+.bodycontainer{
+    background-color: #9DFA8A;
+    background-image: url(./Imag/tablanegra.jpg);  
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.titulo {
+    font-size: 50px;
+    color: #FF9B00; 
+    font-family: 'Segoe UI';
+    font-style: italic;
+    text-align: center;
+    vertical-align: middle;
+    padding: 8px;
+    border: 4px solid #E8E7E7;
+    border-radius: 100px;
+}
+
+img{
+    width: auto;
+    height: 100%;
+    object-fit: contain;
+    opacity: 0.9;
+}
+
+.frutaimagen {
+ height: 220px;
+ border: 1px ;
+ border-radius: 40px;
+ position: relative;
+}
+
+.carneimagen{
+    height: 225px;
+    border: 1px ;
+    border-radius: 60px;
+    position: relative;
+    left: 5%;
+}
+
+.verduraimagen{
+    height: 225px;
+    border: 1px ;
+    border-radius: 70px;
+    position: relative;
+    left: 10%;
+}
+
+.frutatexto{
+    font-size: 20px;
+    color: white;
+    position: relative;
+    left: 5%;
+}
+
+.carnetexto{
+    font-size: 20px;
+    color: white;
+    position: relative;
+    left: 25%;
+    top: 0;
+}
+
+.verduratexto{
+    font-size: 20px;
+    color: white;
+    position: absolute;
+}
