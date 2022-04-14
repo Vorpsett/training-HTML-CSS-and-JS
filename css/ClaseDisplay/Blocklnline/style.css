@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+.container{
+    border: 0.3rem solid black;
+    display: flex;
+    align-items: center;
+    height: 50vh;
+    /* flex-wrap: wrap; para que siempre se alinea con el cambio de pantalla */
+    /* justify-content: space-evenly;  aqui para ver como se alinea*/
+    
+}
+
+.box{
+    /* width: 10rem;  este es inicio del video*/
+    height: 10rem;
+    flex-basis: 10rem;
+
+}
+
+.box1{
+    background-color: blue;
+    /* order: 1; modifica el orden del recuadro */
+    flex-grow: 1;
+}
+
+.box2{
+    background-color: blueviolet;
+    /* order: 3; */
+}
+
+.box3{
+    background-color: aqua;
+    /* order: 4; */
+}
+
+.box4{
+    background-color: greenyellow;
+}
+
+.box5 {
+    background-color: lightseagreen;
+}
+
+.box6{
+    background-color: lightcoral;
+    /* order: 6; */
+}
